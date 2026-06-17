@@ -28,8 +28,8 @@ display:flex;
 }
 
 .content{
-max-width:900px;
-width:100%;
+max-width: 1400px; /* Makes the box much wider on big screens */
+    width: 95vw; /* Uses 95% of the screen width */
 }
 
 .main-photo{
@@ -115,12 +115,16 @@ background:linear-gradient(
 }
 
 .card{
-background:white;
-padding:35px;
-border-radius:25px;
-box-shadow:0 10px 40px rgba(0,0,0,.12);
-max-height:80vh;
-overflow-y:auto;
+background: white;
+    padding: 40px 50px; /* Gives nice wide padding around your text */
+    border-radius: 25px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.12);
+    max-height: 95vh; /* Stretches the card to use almost the entire height of the screen */
+    height: auto;
+    overflow-y: auto; /* Keeps a scrollbar ONLY if the screen is super small */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card p{
