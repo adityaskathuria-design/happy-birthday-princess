@@ -230,3 +230,47 @@ h1{
 ```
 
 }
+/* --- HELLO KITTY AESTHETIC FOR PAGE 2 --- */
+.hk-theme {
+    border: 5px solid #ffb6c1; /* Soft pink border around the whole card */
+    position: relative;
+    background: #fffafa; /* Snow white background */
+}
+
+/* Cute bows on the corners of the card */
+.hk-theme::before {
+    content: "🎀";
+    font-size: 45px;
+    position: absolute;
+    top: -25px;
+    left: -20px;
+    transform: rotate(-15deg);
+}
+
+.hk-theme::after {
+    content: "🎀";
+    font-size: 45px;
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+    transform: rotate(15deg);
+}
+
+/* Cute decorated border for her photo */
+.hk-photo {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 30px; /* Soft rounded corners */
+    border: 6px dashed #ff96c5; /* Cute dashed pink border */
+    padding: 6px; /* Space between picture and border */
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+    margin-bottom: 25px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
