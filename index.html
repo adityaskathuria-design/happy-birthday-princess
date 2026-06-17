@@ -1,28 +1,149 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy 16th Birthday ❤️</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Surprise For My Princess ❤️</title>
 
+```
 <link rel="stylesheet" href="style.css">
-</head>
+```
 
+</head>
 <body>
 
-<div class="page">
+```
+<!-- Floating Hearts -->
+<div class="hearts"></div>
 
-<h1>Happy 16th Birthday ❤️</h1>
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+    <div class="content">
+        <img src="Screenshot 2025-12-31 235912.png" class="main-photo">
 
-<p>A special surprise awaits you 🎀</p>
+        <h1>A Special Surprise For My Princess ❤️</h1>
 
-<button>
-Open Surprise
-</button>
+        <p class="subtitle">
+            Happy 16th Birthday, Liyu ✨
+        </p>
 
-</div>
+        <button onclick="nextPage(2)">
+            Open Your Surprise 🎀
+        </button>
+    </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+    <div class="content card">
+        <h2>💌 How It All Started</h2>
+
+        <p id="para1"></p>
+
+        <button onclick="nextPage(3)">
+            Continue ❤️
+        </button>
+    </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page ocean" id="page3">
+    <div class="content card">
+
+        <img src="1000183422.jpg" class="side-photo">
+
+        <h2>🌊 Why I Fell For You</h2>
+
+        <p id="para2"></p>
+
+        <button onclick="nextPage(4)">
+            Continue 🪼
+        </button>
+    </div>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page lavender" id="page4">
+    <div class="content card">
+
+        <img src="1000183415.jpg" class="side-photo">
+
+        <h2>🐱 Birthday Wishes</h2>
+
+        <p id="para3"></p>
+
+        <button onclick="nextPage(5)">
+            Birthday Cake 🎂
+        </button>
+    </div>
+</section>
+
+<!-- PAGE 5 -->
+<section class="page cake-page" id="page5">
+
+    <h2>🎂 Make A Wish Princess ✨</h2>
+
+    <div class="cake">
+
+        <div class="candles">
+
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+
+        </div>
+
+        <div class="cake-body"></div>
+
+    </div>
+
+    <button onclick="blowCandles()">
+        Blow Candles 🎤
+    </button>
+
+</section>
+
+<!-- FINAL PAGE -->
+<section class="page final-page" id="page6">
+
+    <h1>Happy 16th Birthday Liyu ❤️</h1>
+
+    <div class="gallery">
+
+        <img src="Screenshot 2025-12-31 235912.png">
+
+        <img src="1000183422.jpg">
+
+        <img src="1000183415.jpg">
+
+    </div>
+
+    <p>
+        Thank you for existing. ❤️
+        <br><br>
+        Love,<br>
+        Ellie ❤️
+    </p>
+
+</section>
 
 <script src="script.js"></script>
+```
 
 </body>
 </html>
